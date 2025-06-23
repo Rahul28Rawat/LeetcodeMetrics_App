@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #5a827e;
+  color: #faffca;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 60%;
+  height: 50%;
+  /* max-width: 480px;
+  max-height: 350px; */
+  border-radius: 1.5rem;
+  background-color: #84ae92;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.container h1 {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.user-container {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.user-container p {
+  padding-bottom: 0.3rem;
+}
+
+.user-input-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user-input-container button {
+  width: 20%;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  color: rgb(136, 136, 136);
+}
+
+#user-input {
+  width: 70%;
+  /* border: 1px solid black; */
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+.stats-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding: 0.2rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+}
+
+.progress {
+  /* border: 1px solid black; */
+  width: 100%;
+  /* padding: 0.5rem; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.progress-item {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #5a827e;
+  border: 5px solid #5a827e;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: rgb(54, 54, 54);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background: conic-gradient(#5a827e var(--progress-degree, 0%), #b9d4aa 0%);
+}
